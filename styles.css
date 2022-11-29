@@ -1,0 +1,67 @@
+/* 
+
+    selector {
+        property: value;
+        property: value;
+        property: value;
+     }
+
+
+     tagname -> select all tags of a given type
+     .classname -> select all tags that have a given class
+     tagname.classname -> select ONLY tags that are ALSO a given class
+
+     > -> child symbol
+
+     tagname>tagname -> select children of a given type
+     .classname>tagname -> select children of a given type
+     tagname>.classname -> select children of a given class
+     .classname>.classname -> select children of a given class
+*/
+
+.nav {
+    border-style: dotted ;
+
+    width: 30%;
+    margin: auto;
+
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav>li {
+    border-style: ridge;
+    display: inline-block;
+}
+
+    body {
+        text-align: center;
+    }
+
+    .pictures {
+        width: 30%;
+        height: auto;
+    }
+
+    .flag {
+        background-image: url(Images/scotlanflag2.0.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .background {
+        height: auto;
+        width: 50%;
+    }
+
+.nav>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.read {
+    background-image: url(Images/white.png);
+}
+
+/* Text Centering */
+
