@@ -27,6 +27,7 @@
 
     list-style: none;
     padding-left: 0;
+    text-align: center;
 }
 
 .nav>li {
@@ -34,9 +35,14 @@
     display: inline-block;
 }
 
-    body {
-        text-align: center;
-    }
+.nav>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+ 
+}
 
     .pictures {
         width: 30%;
@@ -54,10 +60,7 @@
         width: 50%;
     }
 
-.nav>li>a {
-    text-decoration: none;
-    color: white;
-}
+
 
 .read {
     background-image: url(Images/white.png);
