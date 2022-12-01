@@ -41,12 +41,13 @@
 }
 
 body {
- 
+    text-align: center;
 }
 
     .pictures {
         width: 30%;
         height: auto;
+        text-align: center;
     }
 
     .flag {
@@ -64,6 +65,14 @@ body {
 
 .read {
     background-image: url(Images/white.png);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 /* Text Centering */
